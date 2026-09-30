@@ -1131,3 +1131,116 @@ body:has(.actions) table td{
 }
 
 /* SITE25-COLOR-CONTRAST-V6 END */
+
+/* SITE25-TEXT-FINAL-V7 START */
+
+/* 메인 콘텐츠의 흐린 텍스트 제거 */
+main h1,
+main h2{
+  color:#123d70!important;
+  -webkit-text-fill-color:#123d70!important;
+  opacity:1!important;
+}
+
+main h3{
+  color:#274b72!important;
+  -webkit-text-fill-color:#274b72!important;
+  opacity:1!important;
+}
+
+main p{
+  color:#52667d!important;
+  -webkit-text-fill-color:#52667d!important;
+  opacity:1!important;
+}
+
+/* 장문 안내 카드 */
+.ry-longtext-grid{
+  display:grid!important;
+  grid-template-columns:repeat(3,minmax(0,1fr))!important;
+  gap:18px!important;
+}
+
+.ry-longtext-box{
+  background:#ffffff!important;
+  border:1px solid #d7e2ee!important;
+  border-radius:18px!important;
+  padding:22px!important;
+  box-shadow:0 7px 22px rgba(25,55,90,.05)!important;
+  opacity:1!important;
+}
+
+.ry-longtext-box h3{
+  color:#173e6d!important;
+  -webkit-text-fill-color:#173e6d!important;
+  opacity:1!important;
+  font-weight:900!important;
+}
+
+.ry-longtext-box p{
+  color:#52667d!important;
+  -webkit-text-fill-color:#52667d!important;
+  opacity:1!important;
+}
+
+/* GUIDE 계열 */
+main [class*="guide"] h2,
+main [class*="guide"] h3,
+main [class*="guide"] strong{
+  color:#173e6d!important;
+  -webkit-text-fill-color:#173e6d!important;
+  opacity:1!important;
+}
+
+main [class*="guide"] p{
+  color:#52667d!important;
+  -webkit-text-fill-color:#52667d!important;
+  opacity:1!important;
+}
+
+/* 업체 카드는 현재 정상 디자인 유지 */
+.company-grid .company-name,
+.company-grid .company-name a{
+  color:#123d70!important;
+  -webkit-text-fill-color:#123d70!important;
+}
+
+.company-grid .company-sub{
+  color:#536981!important;
+  -webkit-text-fill-color:#536981!important;
+}
+
+/* 버튼은 흰 글씨 유지 */
+.company-actions .call,
+.company-actions .sms,
+.actions .call,
+.actions .sms{
+  color:#ffffff!important;
+  -webkit-text-fill-color:#ffffff!important;
+}
+
+/* footer도 흐리지 않게 */
+footer{
+  color:#52667d!important;
+  -webkit-text-fill-color:#52667d!important;
+  opacity:1!important;
+}
+
+footer strong{
+  color:#173e6d!important;
+  -webkit-text-fill-color:#173e6d!important;
+}
+
+@media(max-width:900px){
+  .ry-longtext-grid{
+    grid-template-columns:repeat(2,minmax(0,1fr))!important;
+  }
+}
+
+@media(max-width:600px){
+  .ry-longtext-grid{
+    grid-template-columns:1fr!important;
+  }
+}
+
+/* SITE25-TEXT-FINAL-V7 END */
