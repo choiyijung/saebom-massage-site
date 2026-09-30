@@ -993,3 +993,141 @@ body:has(.actions) table td{
 }
 
 /* SITE25-COMPANY-GRID-V5 END */
+
+/* SITE25-COLOR-CONTRAST-V6 START */
+
+:root{
+  --s25-page:#f5f8fc;
+  --s25-panel:#ffffff;
+  --s25-panel-soft:#eaf2fb;
+
+  --s25-title:#123d70;
+  --s25-heading:#193f6c;
+  --s25-text:#465b73;
+  --s25-muted:#617187;
+
+  --s25-line:#d6e1ed;
+  --s25-blue:#2563eb;
+  --s25-navy:#102c4e;
+}
+
+/* 전체 배경 */
+html,
+body,
+.editorial.insegy-soft-pink{
+  background:var(--s25-page)!important;
+}
+
+/* 큰 제목 */
+.editorial.insegy-soft-pink h1{
+  color:var(--s25-title)!important;
+}
+
+/* 섹션 제목 */
+.editorial.insegy-soft-pink h2{
+  color:var(--s25-heading)!important;
+}
+
+.editorial.insegy-soft-pink h3{
+  color:var(--s25-heading)!important;
+}
+
+/* 일반 본문 */
+.editorial.insegy-soft-pink p{
+  color:var(--s25-text)!important;
+}
+
+/* 작은 설명/라벨도 흐리지 않게 */
+.editorial.insegy-soft-pink small,
+.editorial.insegy-soft-pink .lead,
+.editorial.insegy-soft-pink .intro,
+.editorial.insegy-soft-pink .subtitle,
+.editorial.insegy-soft-pink .description{
+  color:var(--s25-muted)!important;
+}
+
+/* 굵은 텍스트 */
+.editorial.insegy-soft-pink strong{
+  color:var(--s25-heading)!important;
+}
+
+/* 기존 베이지/아이보리 박스 제거 */
+.editorial.insegy-soft-pink .text-box{
+  background:var(--s25-panel)!important;
+  border:1px solid var(--s25-line)!important;
+  color:var(--s25-text)!important;
+}
+
+/* 큰 소개 섹션 */
+.editorial.insegy-soft-pink section{
+  border-color:var(--s25-line)!important;
+}
+
+/* 연한 배경 영역 */
+.editorial.insegy-soft-pink .soft,
+.editorial.insegy-soft-pink .soft-box,
+.editorial.insegy-soft-pink .guide-box{
+  background:var(--s25-panel-soft)!important;
+  color:var(--s25-text)!important;
+}
+
+/* 링크 */
+.editorial.insegy-soft-pink a:not(.call):not(.sms){
+  color:var(--s25-title)!important;
+}
+
+/* 카드 안은 기존 V5 디자인 유지 */
+.company-grid .company-card{
+  background:#ffffff!important;
+  color:#162c49!important;
+}
+
+.company-grid .company-name,
+.company-grid .company-name a{
+  color:#123d70!important;
+}
+
+.company-grid .company-sub{
+  color:#536981!important;
+}
+
+/* 전화 버튼 */
+.company-actions .call,
+.actions .call{
+  background:var(--s25-blue)!important;
+  color:#ffffff!important;
+}
+
+/* 문자 버튼 */
+.company-actions .sms,
+.actions .sms{
+  background:var(--s25-navy)!important;
+  color:#ffffff!important;
+}
+
+/* SHOP 안내박스 */
+body:has(.actions) .note,
+body:has(.actions) .text-box{
+  background:#edf5ff!important;
+  color:#263c56!important;
+  border-color:#cbdced!important;
+}
+
+/* 테이블 */
+body:has(.actions) table th{
+  background:#edf3f9!important;
+  color:#173b6d!important;
+}
+
+body:has(.actions) table td{
+  background:#ffffff!important;
+  color:#40536a!important;
+}
+
+/* 희미한 아이보리색 텍스트 강제 제거 */
+.editorial.insegy-soft-pink [style*="color:#f"],
+.editorial.insegy-soft-pink [style*="color: #f"]{
+  color:var(--s25-text)!important;
+}
+
+/* SITE25-COLOR-CONTRAST-V6 END */
