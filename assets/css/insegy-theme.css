@@ -1324,3 +1324,59 @@ footer strong{
 }
 
 /* SITE25-RY-FIX-V8 END */
+
+/* SITE25-METRO-FIX-V9 START */
+
+.editorial.insegy-soft-pink .metro-local-800{
+  background:#f8fafc!important;
+  color:#52667d!important;
+  opacity:1!important;
+  filter:none!important;
+}
+
+.editorial.insegy-soft-pink .metro-local-800 .inner{
+  color:#52667d!important;
+  opacity:1!important;
+  filter:none!important;
+}
+
+/* 상단 큰 제목 */
+.editorial.insegy-soft-pink .metro-local-800 .inner h2{
+  color:#123d70!important;
+  -webkit-text-fill-color:#123d70!important;
+  opacity:1!important;
+  filter:none!important;
+  text-shadow:none!important;
+}
+
+/* 상단 일반 설명 */
+.editorial.insegy-soft-pink .metro-local-800 .inner p{
+  color:#52667d!important;
+  -webkit-text-fill-color:#52667d!important;
+  opacity:1!important;
+  filter:none!important;
+  text-shadow:none!important;
+}
+
+/* 강조문 */
+.editorial.insegy-soft-pink .metro-local-800 .inner strong{
+  color:#173e6d!important;
+  -webkit-text-fill-color:#173e6d!important;
+  opacity:1!important;
+}
+
+/* 작은 상단 안내문 */
+.editorial.insegy-soft-pink .metro-local-800 .inner span,
+.editorial.insegy-soft-pink .metro-local-800 .inner small{
+  color:#617187!important;
+  -webkit-text-fill-color:#617187!important;
+  opacity:1!important;
+}
+
+/* 구분선 */
+.editorial.insegy-soft-pink .metro-local-800 hr{
+  border-color:#d4deea!important;
+  opacity:1!important;
+}
+
+/* SITE25-METRO-FIX-V9 END */
