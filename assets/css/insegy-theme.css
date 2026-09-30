@@ -716,3 +716,101 @@ table td{
 }
 
 /* SITE25-DESIGN-V3 END */
+
+/* SITE25-SHOP-HERO START */
+
+/* SHOP 상세페이지만 대표 이미지 표시 */
+body:has(.actions) section:has(table)::before{
+  content:"";
+  display:block;
+  width:100%;
+  height:340px;
+  margin:0 0 30px 0;
+
+  background-image:
+    linear-gradient(
+      180deg,
+      rgba(10,30,55,.04),
+      rgba(10,30,55,.18)
+    ),
+    url("/assets/brand/hero.webp");
+
+  background-size:cover;
+  background-position:center;
+  background-repeat:no-repeat;
+
+  border-radius:26px;
+  border:1px solid #d7e3f0;
+  box-shadow:0 18px 48px rgba(20,42,68,.12);
+}
+
+/* SHOP 본문 박스 */
+body:has(.actions) section:has(table){
+  background:#ffffff!important;
+  border:1px solid #dce6f1!important;
+  border-radius:28px!important;
+  padding:30px!important;
+  box-shadow:0 14px 42px rgba(20,42,68,.07)!important;
+}
+
+/* SHOP 제목 */
+body:has(.actions) section:has(table) h1{
+  color:#123e70!important;
+  font-size:clamp(34px,4vw,52px)!important;
+  line-height:1.15!important;
+  word-break:keep-all!important;
+}
+
+/* SHOP 일반 텍스트 */
+body:has(.actions) section:has(table) p{
+  color:#52657b!important;
+}
+
+/* 정보박스는 밝은 배경 + 진한 글씨 */
+body:has(.actions) .text-box,
+body:has(.actions) .note{
+  background:#eef5ff!important;
+  color:#172b46!important;
+  border-color:#cfdded!important;
+}
+
+body:has(.actions) .text-box h2,
+body:has(.actions) .text-box h3,
+body:has(.actions) .note h2,
+body:has(.actions) .note h3{
+  color:#173b6d!important;
+}
+
+/* 코스표 */
+body:has(.actions) table{
+  margin-top:26px!important;
+  background:#fff!important;
+  border-radius:18px!important;
+  overflow:hidden!important;
+}
+
+body:has(.actions) table th{
+  color:#173b6d!important;
+  background:#f0f5fb!important;
+}
+
+body:has(.actions) table td{
+  color:#40536a!important;
+  background:#fff!important;
+}
+
+/* 모바일 */
+@media(max-width:700px){
+  body:has(.actions) section:has(table){
+    padding:16px!important;
+    border-radius:20px!important;
+  }
+
+  body:has(.actions) section:has(table)::before{
+    height:230px;
+    border-radius:18px;
+    margin-bottom:22px;
+  }
+}
+
+/* SITE25-SHOP-HERO END */
