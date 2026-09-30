@@ -1380,3 +1380,54 @@ footer strong{
 }
 
 /* SITE25-METRO-FIX-V9 END */
+
+/* SITE25-METRO-FINAL-V10 START */
+
+.metro-local-800{
+  background:#f8fafc!important;
+  color:#52667d!important;
+  opacity:1!important;
+  filter:none!important;
+}
+
+.metro-local-800 .inner{
+  color:#52667d!important;
+  opacity:1!important;
+  filter:none!important;
+}
+
+/* 맨 위 작은 문구 */
+.metro-local-800 .inner > span,
+.metro-local-800 .inner > small{
+  color:#5d6f84!important;
+  -webkit-text-fill-color:#5d6f84!important;
+  opacity:1!important;
+  filter:none!important;
+}
+
+/* 큰 제목 */
+.metro-local-800 h2{
+  color:#123d70!important;
+  -webkit-text-fill-color:#123d70!important;
+  opacity:1!important;
+  filter:none!important;
+  text-shadow:none!important;
+  background:none!important;
+}
+
+/* 본문 */
+.metro-local-800 p{
+  color:#52667d!important;
+  -webkit-text-fill-color:#52667d!important;
+  opacity:1!important;
+  filter:none!important;
+  text-shadow:none!important;
+}
+
+.metro-local-800 strong{
+  color:#173e6d!important;
+  -webkit-text-fill-color:#173e6d!important;
+  opacity:1!important;
+}
+
+/* SITE25-METRO-FINAL-V10 END */
